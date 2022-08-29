@@ -7,7 +7,7 @@ Shader "Custom/SpectrumCube"
 		[Space(5)]
 		[MainTexture] _BaseMap("Base Map (RGB) Smoothness / Alpha (A)", 2D) = "white" {}
 		[HDR] _EmissionColor("Emission Color", Color) = (1, 1, 1, 1)
-		_EmissionIntensity ("Emission Intensity", Range(0, 10)) = 2
+		_EmissionIntensity ("Emission Intensity", Range(0, 30)) = 2
 		[Header(UV)]
 		[Space(5)]
 		_InitialOffset ("Initial UV Offset", float) = 0

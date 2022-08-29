@@ -637,6 +637,7 @@ GameObject:
   - component: {fileID: 419896406}
   - component: {fileID: 419896408}
   - component: {fileID: 419896407}
+  - component: {fileID: 419896409}
   m_Layer: 5
   m_Name: Cover
   m_TagString: Untagged
@@ -702,6 +703,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 419896405}
   m_CullTransparentMesh: 1
+--- !u!114 &419896409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419896405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877913e5ad3971c4781f4552abd4447c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startScale: 6
+  minScale: 0.95
+  maxScale: 1.05
+  useBuffer: 1
+  rectTransform: {fileID: 0}
 --- !u!1001 &444644635
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1255,7 +1273,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &703913726
 MonoBehaviour:
@@ -1269,6 +1287,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b066c61631d1165419951e82c3ee0fc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  freqBandHighest:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  audioProfile: 5
 --- !u!82 &703913727
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1762,6 +1790,7 @@ GameObject:
   - component: {fileID: 914313544}
   - component: {fileID: 914313543}
   - component: {fileID: 914313542}
+  - component: {fileID: 914313546}
   m_Layer: 0
   m_Name: EmissiveTube (1)
   m_TagString: Untagged
@@ -1847,6 +1876,23 @@ Transform:
   m_Father: {fileID: 292272350}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &914313546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914313541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba2ba7c2411c6a43ad20fd4365788de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minEmission: 0.8
+  maxEmission: 4
+  useBuffer: 1
+  material: {fileID: 0}
+  EmissionColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &993484842
 GameObject:
   m_ObjectHideFlags: 0
@@ -1894,7 +1940,7 @@ Transform:
   - {fileID: 1917084021}
   - {fileID: 1784353800}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1016579696
 PrefabInstance:
@@ -2183,6 +2229,7 @@ GameObject:
   - component: {fileID: 1118465120}
   - component: {fileID: 1118465119}
   - component: {fileID: 1118465118}
+  - component: {fileID: 1118465122}
   m_Layer: 0
   m_Name: EmissiveTube (2)
   m_TagString: Untagged
@@ -2268,6 +2315,23 @@ Transform:
   m_Father: {fileID: 292272350}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1118465122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118465117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba2ba7c2411c6a43ad20fd4365788de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minEmission: 0.8
+  maxEmission: 4
+  useBuffer: 1
+  material: {fileID: 0}
+  EmissionColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1001 &1192415602
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2636,6 +2700,7 @@ GameObject:
   - component: {fileID: 1397765273}
   - component: {fileID: 1397765272}
   - component: {fileID: 1397765271}
+  - component: {fileID: 1397765275}
   m_Layer: 0
   m_Name: EmissiveTube
   m_TagString: Untagged
@@ -2721,6 +2786,23 @@ Transform:
   m_Father: {fileID: 292272350}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1397765275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1397765270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba2ba7c2411c6a43ad20fd4365788de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minEmission: 0.8
+  maxEmission: 4
+  useBuffer: 1
+  material: {fileID: 0}
+  EmissionColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1405581860 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4029513532195771157, guid: 1d3a3ed70a7fb2e449857593515639aa,
@@ -2882,6 +2964,7 @@ GameObject:
   - component: {fileID: 1717039649}
   - component: {fileID: 1717039648}
   - component: {fileID: 1717039647}
+  - component: {fileID: 1717039651}
   m_Layer: 0
   m_Name: EmissiveTube (3)
   m_TagString: Untagged
@@ -2967,6 +3050,23 @@ Transform:
   m_Father: {fileID: 292272350}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1717039651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717039646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba2ba7c2411c6a43ad20fd4365788de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minEmission: 0.8
+  maxEmission: 4
+  useBuffer: 1
+  material: {fileID: 0}
+  EmissionColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1001 &1784353799
 PrefabInstance:
   m_ObjectHideFlags: 0

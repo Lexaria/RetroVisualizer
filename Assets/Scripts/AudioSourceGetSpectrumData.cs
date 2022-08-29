@@ -14,10 +14,15 @@ public class AudioSourceGetSpectrumData : MonoBehaviour
 
     private float[] bufferDecrease = new float[8];
 
-    private float[] freqBandHighest = new float[8];
+    public float[] freqBandHighest = new float[8];
 
     public static float[] audioBand = new float[8];
     public static float[] audioBandBuffer = new float[8];
+
+    public static float Amplitude, AmplitudeBuffer;
+    private float AmplitudeHighest;
+
+    public float audioProfile;
 
     // public Material material;
     private void Start()
@@ -26,6 +31,7 @@ public class AudioSourceGetSpectrumData : MonoBehaviour
         // {
         //     Debug.Log("Null Material");
         // }
+        AudioProfile(audioProfile);
     }
 
     void Update()
@@ -35,6 +41,7 @@ public class AudioSourceGetSpectrumData : MonoBehaviour
         MakeFrequencyBands();
         BandBuffer();
         CreateAudioBands();
+        GetAmplitube();
         // material.SetFloatArray("_Spectrum", spectrum);
     }
 
@@ -113,6 +120,28 @@ public class AudioSourceGetSpectrumData : MonoBehaviour
 
     void GetAmplitube()
     {
-        
+        float CurrentAmplitude = 0;
+        float CurrentAmplitudeBuffer = 0;
+        for (int i = 0; i < 8; i++)
+        {
+            CurrentAmplitude += audioBand[i];
+            CurrentAmplitudeBuffer += audioBandBuffer[i];
+        }
+
+        if (CurrentAmplitude > AmplitudeHighest)
+        {
+            AmplitudeHighest = CurrentAmplitude;
+        }
+
+        Amplitude = CurrentAmplitude / AmplitudeHighest;
+        AmplitudeBuffer = CurrentAmplitudeBuffer / AmplitudeHighest;
+    }
+
+    void AudioProfile(float audioProfile)
+    {
+        for (int i = 0; i < 8; i++)
+        {
+            freqBandHighest[i] = audioProfile;
+        }
     }
 }
