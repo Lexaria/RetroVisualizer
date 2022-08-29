@@ -12,11 +12,8 @@
       <change beforePath="$PROJECT_DIR$/Assets/Materials/M_SpectrumBox 6.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/M_SpectrumBox 6.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials/M_SpectrumBox 7.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/M_SpectrumBox 7.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AudioSourceGetSpectrumData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AudioSourceGetSpectrumData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/SpectrumCube.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/SpectrumCube.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/CubeTex.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/CubeTex.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recordings/movie_007.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity-Renderer.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity-Renderer.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +27,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Instanciate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MusicPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ParamCube.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PixelateFeature.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -97,7 +95,7 @@
       <updated>1661613016429</updated>
       <workItem from="1661613023945" duration="6531000" />
       <workItem from="1661698408118" duration="12829000" />
-      <workItem from="1661789588563" duration="3898000" />
+      <workItem from="1661789588563" duration="6024000" />
     </task>
     <servers />
   </component>

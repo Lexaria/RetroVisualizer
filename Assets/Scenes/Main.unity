@@ -1889,7 +1889,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minEmission: 0.8
-  maxEmission: 4
+  maxEmission: 3
   useBuffer: 1
   material: {fileID: 0}
   EmissionColor: {r: 0, g: 0, b: 0, a: 0}
@@ -2328,7 +2328,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minEmission: 0.8
-  maxEmission: 4
+  maxEmission: 3
   useBuffer: 1
   material: {fileID: 0}
   EmissionColor: {r: 0, g: 0, b: 0, a: 0}
@@ -2799,7 +2799,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minEmission: 0.8
-  maxEmission: 4
+  maxEmission: 3
   useBuffer: 1
   material: {fileID: 0}
   EmissionColor: {r: 0, g: 0, b: 0, a: 0}
@@ -3063,7 +3063,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minEmission: 0.8
-  maxEmission: 4
+  maxEmission: 3
   useBuffer: 1
   material: {fileID: 0}
   EmissionColor: {r: 0, g: 0, b: 0, a: 0}
