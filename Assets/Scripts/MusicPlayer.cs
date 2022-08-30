@@ -7,7 +7,7 @@ using UnityEngine.PlayerLoop;
 public class MusicPlayer : MonoBehaviour
 {
     public AudioSource audioSource;
-    private bool isPlay;
+    public static bool isPlay;
 
     // Start is called before the first frame update
     void Start()
