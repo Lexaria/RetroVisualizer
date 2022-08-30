@@ -3,17 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="a638b083-9fef-4bfb-a4f2-bf2b96467ac8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RetroVisualizer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RetroVisualizer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/M_SpectrumBox 0.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/M_SpectrumBox 0.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/M_SpectrumBox 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/M_SpectrumBox 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/M_SpectrumBox 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/M_SpectrumBox 2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/M_SpectrumBox 3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/M_SpectrumBox 3.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/M_SpectrumBox 4.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/M_SpectrumBox 4.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/M_SpectrumBox 5.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/M_SpectrumBox 5.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/M_SpectrumBox 6.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/M_SpectrumBox 6.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/M_SpectrumBox 7.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/M_SpectrumBox 7.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/M_Pixelate.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/M_Pixelate.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main/Global Volume Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main/Global Volume Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MusicPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MusicPlayer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity-Renderer.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity-Renderer.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +19,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a074fbd7e5e047c0b5e06287db87daf7fc00/dd/04d6b0cc/AudioListener.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c6b52566f59b49fc861a7812a1ea2f6b157a00/8a/eba93c78/Transform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AmplitudeMaterialEffect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CRTFeature.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Instanciate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MusicPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ParamCube.cs" root0="FORCE_HIGHLIGHTING" />
@@ -95,7 +91,8 @@
       <updated>1661613016429</updated>
       <workItem from="1661613023945" duration="6531000" />
       <workItem from="1661698408118" duration="12829000" />
-      <workItem from="1661789588563" duration="6024000" />
+      <workItem from="1661789588563" duration="8623000" />
+      <workItem from="1661845611854" duration="3035000" />
     </task>
     <servers />
   </component>

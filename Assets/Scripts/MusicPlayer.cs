@@ -23,27 +23,48 @@ public class MusicPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(1))
-        {
-            Debug.Log("Replay");
-            audioSource.Play();
-            isPlay = true;
-        }
+        // if (Input.GetMouseButtonDown(1))
+        // {
+        //     Debug.Log("Replay");
+        //     audioSource.Play();
+        //     isPlay = true;
+        // }
+        //
+        // if (Input.GetMouseButtonDown(0))
+        // {
+        //     if (isPlay == true)
+        //     {
+        //         Debug.Log("Stop");
+        //         audioSource.Pause();
+        //         isPlay = false;
+        //     }
+        //     else
+        //     {
+        //         Debug.Log("Continue");
+        //         audioSource.UnPause();
+        //         isPlay = true;
+        //     }
+        // }
+    }
 
-        if (Input.GetMouseButtonDown(0))
-        {
-            if (isPlay == true)
-            {
-                Debug.Log("Stop");
-                audioSource.Pause();
-                isPlay = false;
-            }
-            else
-            {
-                Debug.Log("Continue");
-                audioSource.UnPause();
-                isPlay = true;
-            }
-        }
+    public void Play()
+    {
+        Debug.Log("Continue");
+        audioSource.UnPause();
+        isPlay = true;
+    }
+
+    public void Stop()
+    {
+        Debug.Log("Stop");
+        audioSource.Pause();
+        isPlay = false;
+    }
+
+    public void Replay()
+    {
+        Debug.Log("Replay");
+        audioSource.Play();
+        isPlay = true;
     }
 }
