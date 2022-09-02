@@ -14,11 +14,7 @@ Shader "Custom/SpectrumCube"
 		_UVSpeed ("UV Move Speed", Range(-10, 10)) = 1
 		[Space(30)]
 		
-		[Header(Object Move)]
-		[Space(3)]
-		_MoveSpeed ("Object Move Speed", Range(-10, 10)) = 1
-		_MoveRange ("Object Move Range", Range(0, 5)) = 1
-		[Space(30)]
+
 
 
 		[Toggle(_ALPHATEST_ON)] _AlphaTestToggle ("Alpha Clipping", Float) = 0
@@ -79,7 +75,6 @@ Shader "Custom/SpectrumCube"
 			float _InitialOffset;
 			float _EmissionIntensity;
 			float _UVSpeed;
-			float _MoveSpeed, _MoveRange;
 			CBUFFER_END
 
 			
@@ -104,7 +99,6 @@ Shader "Custom/SpectrumCube"
 				UNITY_SETUP_INSTANCE_ID(IN);
 				UNITY_TRANSFER_INSTANCE_ID(IN, OUT);
 				UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(OUT);
-				IN.positionOS.y += sin(frac(_Time.z * _MoveSpeed) * TWO_PI) * _MoveRange;
 				const VertexPositionInputs vertex_position_inputs = GetVertexPositionInputs(IN.positionOS);
 				OUT.positionCS = vertex_position_inputs.positionCS;
 				OUT.uv = TRANSFORM_TEX(IN.uv, _BaseMap);

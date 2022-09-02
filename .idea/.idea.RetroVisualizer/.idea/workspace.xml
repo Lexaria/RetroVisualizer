@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a638b083-9fef-4bfb-a4f2-bf2b96467ac8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Shaders/Rainbow.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shaders/Rainbow.shader.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RetroVisualizer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RetroVisualizer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Moe Shop - Pure Pure/cover.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Moe Shop - Pure Pure/cover.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MusicPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MusicPlayer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recordings/Retro Music PLayer.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recordings/movie_010.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/SpectrumCube.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/SpectrumCube.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +24,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MusicPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ParamCube.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PixelateFeature.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@12.1.7/ShaderLibrary/Packing.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@12.1.7/ShaderLibrary/ShaderVariablesFunctions.hlsl" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -94,6 +96,7 @@
       <workItem from="1661789588563" duration="8623000" />
       <workItem from="1661845611854" duration="3672000" />
       <workItem from="1661874929588" duration="2700000" />
+      <workItem from="1662116488824" duration="5035000" />
     </task>
     <servers />
   </component>
