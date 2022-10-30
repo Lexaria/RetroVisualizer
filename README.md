@@ -1,2 +1,2 @@
 # RetroVisualizer
-![Image text](https://raw.github.com/Lexaria/repositpry/master/RetroVisualizer/final.png)
+![Image text](https://raw.githubusercontent.com/Lexaria/RetroVisualizer/main/final.png)
